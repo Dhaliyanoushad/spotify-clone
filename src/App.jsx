@@ -8,6 +8,7 @@ const App = () => {
       <div className="h-[90%] flex">
         <Sidebar />
       </div>
+      <Player />
     </div>
   );
 };
