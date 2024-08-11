@@ -80,7 +80,7 @@ const Player = () => {
           </p>
         </div>
       </div>
-      <div className="hidden lg:flex items-center gap-2 opacity-75">
+      <div className="hidden lg:flex items-center gap-2 opacity-75 tooltip">
         <img className="w-4 cursor-pointer" src={assets.plays_icon} alt="" />
         <img className="w-4 cursor-pointer" src={assets.mic_icon} alt="" />
         <img className="w-4 cursor-pointer" src={assets.queue_icon} alt="" />
@@ -93,6 +93,7 @@ const Player = () => {
           alt=""
         />
         <img className="w-4 cursor-pointer" src={assets.zoom_icon} alt="" />
+        <span className="tooltiptext">Ithonnu workauledo!!</span>
       </div>
     </div>
   );
