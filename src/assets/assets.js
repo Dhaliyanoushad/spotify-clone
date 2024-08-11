@@ -41,6 +41,11 @@ import img16 from "./img16.jpg";
 import song1 from "./song1.mp3";
 import song2 from "./song2.mp3";
 import song3 from "./song3.mp3";
+import song4 from "./song4.mp3";
+import song5 from "./song5.mp3";
+import song6 from "./song6.mp3";
+import song7 from "./song7.mp3";
+import song8 from "./song8.mp3";
 
 export const assets = {
   bell_icon,
@@ -117,7 +122,7 @@ export const albumsData = [
 export const songsData = [
   {
     id: 0,
-    name: "Song One",
+    name: "Kasoor",
     image: img1,
     file: song1,
     desc: "Put a smile on your face with these happy tunes",
@@ -125,7 +130,7 @@ export const songsData = [
   },
   {
     id: 1,
-    name: "Song Two",
+    name: "Bandeya",
     image: img2,
     file: song2,
     desc: "Put a smile on your face with these happy tunes",
@@ -133,7 +138,7 @@ export const songsData = [
   },
   {
     id: 2,
-    name: "Song Three",
+    name: "Aap ki nazron",
     image: img3,
     file: song3,
     desc: "Put a smile on your face with these happy tunes",
@@ -141,41 +146,41 @@ export const songsData = [
   },
   {
     id: 3,
-    name: "Song Four",
+    name: "Main agar kahoon",
     image: img4,
-    file: song1,
+    file: song4,
     desc: "Put a smile on your face with these happy tunes",
     duration: "2:50",
   },
   {
     id: 4,
-    name: "Song Five",
+    name: "Haule Haule",
     image: img5,
-    file: song2,
+    file: song5,
     desc: "Put a smile on your face with these happy tunes",
     duration: "3:10",
   },
   {
     id: 5,
-    name: "Song Six",
+    name: "Husn",
     image: img14,
-    file: song3,
+    file: song6,
     desc: "Put a smile on your face with these happy tunes",
     duration: "2:45",
   },
   {
     id: 6,
-    name: "Song Seven",
+    name: "Apna Bana Le",
     image: img7,
-    file: song1,
+    file: song7,
     desc: "Put a smile on your face with these happy tunes",
     duration: "2:18",
   },
   {
     id: 7,
-    name: "Song Eight",
+    name: "Dil",
     image: img12,
-    file: song2,
+    file: song8,
     desc: "Put a smile on your face with these happy tunes",
     duration: "2:35",
   },
