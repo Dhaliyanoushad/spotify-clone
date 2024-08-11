@@ -34,11 +34,13 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex items-center gap-2 mt-4">
-        <p className="bg-white text-black px-4 py-1 rounded-2xl cursor-pointer">
+        <p className="bg-white text-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-black hover:text-white">
           All
         </p>
-        <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">Music</p>
-        <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">
+        <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-white hover:text-black">
+          Music
+        </p>
+        <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-white hover:text-black">
           Podcasts
         </p>
       </div>
